@@ -17,7 +17,6 @@ body {
     font-family: var(--font-family) ;
     background-color: var(--Dark-cyan);
     background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
-    background-position: -60% 150%;
     background-repeat: no-repeat, no-repeat;
     background-position: top 220% left -40%, bottom 250% right -35%;
     background-repeat: no-repeat;

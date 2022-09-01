@@ -16,9 +16,10 @@
 body {
     font-family: var(--font-family) ;
     background-color: var(--Dark-cyan);
-    background-image: url("../images/bg-pattern-top.svg");
+    background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
     background-position: -60% 150%;
-    background-image: url("/images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: top 220% left -40%, bottom 250% right -35%;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
@@ -32,6 +33,7 @@ body {
     text-align: center;
     border-radius: 0.8rem;
     background-color: #fff;
+    box-shadow: 15px 15px 60px -20px rgba(0, 0, 0, 0.5)
 }
 
 .bg {

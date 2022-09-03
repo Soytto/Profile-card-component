@@ -84,3 +84,16 @@ footer p {
     letter-spacing: 1px;
     text-align: center;
 }
+
+@media (max-width: 350px) {
+    .victor {
+        top: 41%
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+    footer p {
+        padding-bottom: 0.5rem;
+    }
+}
